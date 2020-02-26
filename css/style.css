@@ -1,0 +1,59 @@
+body{
+    font-family: Montserrat;
+}
+.imgContent{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.centered {
+    position: absolute;
+    font-weight: normal;
+    top: 50%;
+    left: 50%;
+    font-size: 80px;
+    transform: translate(-50%, -50%);
+}
+
+.txtHead{
+    font-weight: bolder;
+    color: black;
+    font-size: 24px;
+}
+
+.ptext{
+    font-size: 16px;
+    color: black;
+}
+
+.numb{
+    font-weight: bolder;
+    color: black;
+    font-size: 34px;
+}
+.txtSmall{
+    font-size: 12px;
+    font-weight: bold;
+    color: rgba(53, 48, 48, 0.5);
+}
+.txtVSmall{
+    font-size: 12px;
+}
+.txtLink{
+    color: black;
+    font-size: 14px;
+    font-weight: bolder;
+    text-decoration: solid;
+}
+.txtLink:hover{
+    color: black;
+}
+
+@media screen and (min-width:990px) {
+    .contentE{
+        margin-top : 4rem;
+    }
+    .contentEmail{
+        padding: 2rem 3rem 1rem 3rem !important;
+    }
+}
