@@ -9,7 +9,7 @@ body{
 .centered {
     position: absolute;
     font-weight: normal;
-    top: 50%;
+    top: 30%;
     left: 50%;
     font-size: 80px;
     transform: translate(-50%, -50%);
@@ -18,7 +18,7 @@ body{
 .txtHead{
     font-weight: bolder;
     color: black;
-    font-size: 24px;
+    font-size: 22px;
 }
 
 .ptext{
@@ -49,14 +49,6 @@ body{
     color: black;
 }
 
-@media screen and (min-width:990px) {
-    .contentE{
-        margin-top : 4rem;
-    }
-    .contentEmail{
-        padding: 2rem 3rem 1rem 3rem !important;
-    }
-}
 @media screen and (max-width:1199px){
     .contentEmail{
         padding: 0rem 1rem !important;
