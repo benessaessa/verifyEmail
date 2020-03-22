@@ -46,3 +46,8 @@ body{
         padding: 0rem 1rem !important;
     }
 }
+@media screen and (max-width:350px){
+    img{
+        max-width: 320px !important;
+    }
+}
